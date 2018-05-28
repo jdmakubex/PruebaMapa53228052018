@@ -1,0 +1,25 @@
+body {
+  font: 12px sans-serif;
+}
+
+path {
+  stroke-width: 1px;
+  stroke: white;
+  fill: #282828;
+  cursor: pointer;
+}
+
+path:hover, path.highlighted {
+  fill: tomato;
+
+
+  path2 {
+  stroke-width: 1px;
+  stroke: #0000ff;
+  fill: #80ffff;
+  cursor: pointer;
+}
+
+path2:hover, path.highlighted {
+  fill: #0080ff;
+}
